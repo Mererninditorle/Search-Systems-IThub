@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.screen1 {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.scr1_left {
+    width: 50%;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+.navbar {
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+.scr1_header {
+    
+}
+
+
+.scr1_right {
+    width: 50%;
+    background-image: url(https://www.volvocars.com/images/v/-/media/market-assets/us/applications/dotcom/homepage/16x9.jpg?h=2700&iar=0&w=4800);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
