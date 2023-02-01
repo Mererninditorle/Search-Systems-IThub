@@ -27,22 +27,6 @@ a {
     font-weight: 500;
 }
 
-.navbar_links {
-    width: 40%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.scr1_content {
-    height: 85%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-
 .scr1_header {
     width: 100%;
     font-size: 50px;
@@ -50,20 +34,72 @@ a {
     text-align: left;
 }
 
+.screen1_content {
+    height: 85%;display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.scr1_txt {
+    font-size: 20px;
+    font-weight: 400;
+}
+
 .scr1_img {
-    height: 45%;
+    height: 70%;
     width: 100%;
-    background-image: url(https://www.volvocars.com/images/v/-/media/project/contentplatform/data/media/pdp/v60-cross-country/v60-cross-country-hero-21x9.jpg?iar=0&w=1920);
+    background-image: url(https://www.volvocars.com/images/v/-/media/project/contentplatform/data/media/my22/xc40-fuel/xc40-hero-21x9.jpg?h=1096&iar=0&w=2560);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.scr1_txt {
-    margin-bottom: 5vh;
+.screen2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3vw;
+    padding-right: 3vw; 
+}
+
+.reasons {
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.reasons_header {
+    font-size: 50px;
+    font-weight: 700;
     text-align: center;
+}
+
+.reason {
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reason_header {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.reason_content {
+    width: 50%;
+    text-align: left;
+}
+
+.reason_img {
+    width: 40vw;
+}
+
+.reason_txt {
     font-size: 20px;
-    font-weight: 400;
 }
 
 .footer {
