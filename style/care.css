@@ -6,7 +6,7 @@ body {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #1B365D;
 }
 
 .screen1 {
@@ -25,6 +25,10 @@ a {
     align-items: center;
     justify-content: space-between;
     font-weight: 500;
+}
+
+.navbar a {
+    color: black;
 }
 
 .navbar_links {
@@ -53,8 +57,8 @@ a {
 .scr1_img {
     height: 45%;
     width: 100%;
-    background-image: url(https://www.volvocars.com/images/v/-/media/project/contentplatform/data/media/pdp/v60-cross-country/v60-cross-country-hero-21x9.jpg?iar=0&w=1920);
-    background-position: center;
+    background-image: url(https://www.volvocarsuzdalsky.ru/upload/iblock/d58/kw0ula8ai9m20ovzwg32puhdusc36i3w.jpg);
+    background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -75,6 +79,7 @@ a {
     align-items: center;
     justify-content: space-around;
     background-color:  #E1DFDD;
+    color: black;
 }
 
 .footer_links {
@@ -92,4 +97,8 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+}
+
+.footer_container a {
+    color: black;
 }

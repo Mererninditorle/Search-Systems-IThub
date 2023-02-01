@@ -6,7 +6,7 @@ body {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #1B365D;
 }
 
 .screen1 {
@@ -28,6 +28,10 @@ a {
     align-items: center;
     justify-content: space-between;
     font-weight: 500;
+}
+
+.navbar a {
+    color: black;
 }
 
 .scr1_header {
@@ -217,4 +221,8 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+}
+
+.footer_container a {
+    color: black;
 }
