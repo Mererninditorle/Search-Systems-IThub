@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #1B365D;
+}
+
+.screen1 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+.navbar {
+    height: 15%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+.navbar a {
+    color: black;
+}
+
+
+.scr1_content {
+    height: 100%;
+}
+
+.scr1_header {
+    font-size: 30px;
+    font-weight: 700; 
+}
+
+.scr1_content_wrapper {
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.scr1_content_img {
+    height: 90%;
+    width: 55%;
+    background-image: url(https://www.volvocars.com/images/v/-/media/project/contentplatform/data/media/pdp/v60-cross-country/v60-cross-country-hero-21x9.jpg?iar=0&w=1920);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.scr1_wrap {
+    width: 40%;
+}
+
+.scr1_content_header {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.scr1_content_txt {
+    font-size: 20px;
+}
+
+.screen2 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+.scr2_header {
+    width: 100%;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.cards {
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.card {
+    height: 85%;
+    width: 29%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.card_img {
+    width: 100%;
+    /* height: 30%; */
+}
+
+.card_header {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 1vh;
+}
+
+.card_txt {
+    font-size: 20px;
+}
+
+.footer {
+    height: 20vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color:  #E1DFDD;
+}
+
+.footer_links {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer_container {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer_container a {
+    color: black;
+}
