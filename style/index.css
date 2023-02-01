@@ -29,7 +29,7 @@ a {
     justify-content: space-between;
     font-weight: 500;
 }
- 
+
 .scr1_header {
     width: 80%;
     margin-bottom: 2vh;
@@ -58,7 +58,6 @@ a {
     font-size: 20px;
     height: 10%;
     width: 20%;
-    background-color: #A7A8A9;
     text-decoration: underline;
 }
 
@@ -87,10 +86,9 @@ a {
     justify-content: center;
 }
 
-/* Доработать */
 .scr2_header {
     height: 15%;
-    width: 100% - 6vw;
+    width: 94vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -190,7 +188,6 @@ a {
     font-size: 20px;
     height: 20%;
     width: 15%;
-    background-color: #A7A8A9;
     text-decoration: underline;
 }
 
