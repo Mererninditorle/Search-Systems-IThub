@@ -9,3 +9,4 @@ Disallow: /why_volvo.html
 
 User-agent: bingbot 
 Disallow: /cars.html
+Disallow: /robots.txt
