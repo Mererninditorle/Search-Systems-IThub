@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+User-agent: Yandex
+Disallow: /care.html
+
+User-agent: Googlebot
+Disallow: /why_volvo.html
+
+User-agent: bingbot 
+Disallow: /cars.html
