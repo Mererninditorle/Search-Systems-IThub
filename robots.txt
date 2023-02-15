@@ -1,6 +1,3 @@
-User-agent: *
-Allow: /
-
 User-agent: Yandex
 Disallow: /care.html
 
